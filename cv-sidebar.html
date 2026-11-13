@@ -39,8 +39,7 @@
     body {
       font-family: "Inter", "Segoe UI", Calibri, Arial, sans-serif;
       color: var(--ink);
-      font-size: 8.5pt;
-      line-height: 1.37;
+      font-size: 8.8pt; line-height: 1.4;
       background: #cfd5db;
     }
 
@@ -69,28 +68,28 @@
     /* ---------- Colonna laterale ---------- */
     aside {
       background: var(--side-bg);
-      padding: 10mm 7mm 8mm 8mm;
+      padding: 12mm 7mm 10mm 8mm;
       border-right: 1px solid var(--rule);
     }
 
     .photo {
-      width: 34mm;
-      height: 34mm;
+      width: 40mm;
+      height: 40mm;
       border-radius: 50%;
       object-fit: cover;
       display: block;
-      margin: 0 auto 5mm;
+      margin: 0 auto 7mm;
       border: 3px solid #fff;
       box-shadow: 0 0 0 1px var(--rule);
     }
 
     aside h2 {
-      font-size: 8pt;
+      font-size: 8.2pt;
       letter-spacing: .12em;
       text-transform: uppercase;
       color: var(--accent);
       font-weight: 700;
-      margin: 4.4mm 0 2mm;
+      margin: 6.5mm 0 2.4mm;
       padding-bottom: 1.2mm;
       border-bottom: 1.5px solid var(--accent);
     }
@@ -101,13 +100,13 @@
 
     .contact li {
       list-style: none;
-      margin-bottom: 1.5mm;
+      margin-bottom: 2mm;
       word-break: break-word;
     }
 
     .contact .lbl {
       display: block;
-      font-size: 7pt;
+      font-size: 7.2pt;
       color: var(--muted);
       text-transform: uppercase;
       letter-spacing: .06em;
@@ -120,16 +119,16 @@
 
     .skills li {
       list-style: none;
-      padding-left: 3.2mm;
+      padding-left: 3.4mm;
       position: relative;
-      margin-bottom: .9mm;
+      margin-bottom: 1.5mm;
     }
 
     .skills li::before {
       content: "";
       position: absolute;
       left: 0;
-      top: .6em;
+      top: .62em;
       width: 1.4mm;
       height: 1.4mm;
       border-radius: 50%;
@@ -144,25 +143,24 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 1.2mm;
+      margin-bottom: 1.6mm;
       gap: 2mm;
     }
 
     .lang .lvl {
       color: var(--muted);
-      font-size: 7.8pt;
+      font-size: 8pt;
       text-align: right;
     }
 
     /* ---------- Colonna principale ---------- */
-    main {
-      padding: 10mm 11mm 7mm 9mm;
+    main { padding: 11mm 11mm 8mm 9mm;
       display: flex;
       flex-direction: column;
     }
 
     header h1 {
-      font-size: 23pt;
+      font-size: 24pt;
       line-height: 1.05;
       font-weight: 700;
       letter-spacing: -.01em;
@@ -173,39 +171,34 @@
     }
 
     header .role {
-      font-size: 10.5pt;
+      font-size: 11pt;
       font-weight: 600;
       color: var(--accent);
       margin-top: 1.6mm;
     }
 
     header .tag {
-      font-size: 8.3pt;
+      font-size: 8.5pt;
       color: var(--muted);
       margin-top: .6mm;
     }
 
-    .summary {
-      margin-top: 3mm;
-      font-size: 8.6pt;
-    }
+    .summary { margin-top: 3.4mm; font-size: 8.9pt; }
 
     .kpis {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 2.2mm;
-      margin-top: 3.3mm;
-    }
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.6mm; margin-top: 3.6mm; }
 
     .kpi {
       background: var(--accent-soft);
       border-radius: 2mm;
-      padding: 2.2mm 2.4mm 2mm;
+      padding: 2.6mm 3mm 2.4mm;
     }
 
     .kpi b {
       display: block;
-      font-size: 13.5pt;
+      font-size: 15pt;
       line-height: 1.1;
       color: var(--accent);
       font-weight: 700;
@@ -213,25 +206,22 @@
 
     .kpi span {
       display: block;
-      font-size: 7pt;
+      font-size: 7.6pt;
       line-height: 1.3;
       color: var(--ink);
       margin-top: .8mm;
     }
 
     main h2 {
-      font-size: 8.6pt;
+      font-size: 8.8pt;
       letter-spacing: .12em;
       text-transform: uppercase;
       color: var(--accent);
       font-weight: 700;
-      margin: 4mm 0 2mm;
-      padding-bottom: 1.2mm;
-      border-bottom: 1.5px solid var(--accent);
+      margin: 4.6mm 0 2.2mm; padding-bottom: 1.2mm; border-bottom: 1.5px solid var(--accent);
     }
 
-    .job {
-      margin-bottom: 2.3mm;
+    .job { margin-bottom: 2.6mm;
       break-inside: avoid;
     }
 
@@ -243,19 +233,19 @@
     }
 
     .job-head h3 {
-      font-size: 9.4pt;
+      font-size: 9.8pt;
       font-weight: 700;
     }
 
     .job-head .when {
-      font-size: 7.8pt;
+      font-size: 8.1pt;
       color: var(--muted);
       white-space: nowrap;
       font-weight: 500;
     }
 
     .org {
-      font-size: 8.5pt;
+      font-size: 8.9pt;
       color: var(--accent);
       font-weight: 600;
     }
@@ -266,7 +256,7 @@
     }
 
     .progress {
-      font-size: 7.9pt;
+      font-size: 8.4pt;
       color: var(--muted);
       margin-top: .4mm;
     }
@@ -276,12 +266,9 @@
       font-weight: 600;
     }
 
-    .job ul {
-      margin: 1mm 0 0 4mm;
-    }
+    .job ul { margin: 1mm 0 0 4mm; }
 
-    .job li {
-      margin-bottom: .5mm;
+    .job li { margin-bottom: .5mm;
       padding-left: .5mm;
     }
 
@@ -289,20 +276,37 @@
       color: var(--accent);
     }
 
+    .parallel {
+      margin-top: 1.6mm;
+      padding: 2.2mm 3mm;
+      background: #f6f8f9;
+      border-left: 2px solid var(--accent);
+      border-radius: 0 1.5mm 1.5mm 0;
+      font-size: 8.6pt;
+    }
+
+    .parallel b {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .parallel .when {
+      font-size: 8pt;
+      color: var(--muted);
+    }
+
     .edu {
       display: grid;
       grid-template-columns: 1fr auto;
-      gap: .2mm 3mm;
-      margin-bottom: 1.7mm;
-    }
+      gap: .2mm 3mm; margin-bottom: 1.8mm; }
 
     .edu h3 {
-      font-size: 9.1pt;
+      font-size: 9.5pt;
       font-weight: 700;
     }
 
     .edu .when {
-      font-size: 7.8pt;
+      font-size: 8.1pt;
       color: var(--muted);
       white-space: nowrap;
       text-align: right;
@@ -314,13 +318,14 @@
 
     .gdpr {
       margin-top: auto;
-      padding-top: 2mm;
-      font-size: 6.4pt;
+      padding-top: 2.2mm;
+      font-size: 6.7pt;
       color: var(--muted);
       line-height: 1.35;
       border-top: 1px solid var(--rule);
     }
-  </style>
+    .contact a.linkedin { color: var(--accent); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+</style>
 </head>
 
 <body>
@@ -332,33 +337,20 @@
 
       <h2>Contatti</h2>
       <ul class="contact">
-        
+        <li class="phone"><span class="lbl">Telefono</span>+39 333 560 5196</li>
         <li><span class="lbl">E-mail</span><a
             href="mailto:ricciardelli.giulia97@gmail.com">ricciardelli.giulia97@gmail.com</a></li>
-        <li><span class="lbl">LinkedIn</span><a
-            href="https://www.linkedin.com/in/giulia-ricciardelli-18a55225b">linkedin.com/in/giulia-ricciardelli-18a55225b</a>
+        <li><span class="lbl">LinkedIn</span><a class="linkedin" href="https://www.linkedin.com/in/giulia-ricciardelli-18a55225b">Profilo LinkedIn</a>
         </li>
         <li><span class="lbl">Residenza</span>Imola (BO), Emilia-Romagna</li>
       </ul>
 
-      <h2>Competenze chiave</h2>
-      <ul class="skills">
-        <li>Business development B2B</li>
-        <li>Corporate partnership &amp; sponsorship</li>
-        <li>Proposte economiche, upselling e cross-selling</li>
-        <li>Negoziazione e chiusura accordi</li>
-        <li>Account management e rinnovi</li>
-        <li>Coordinamento partner in evento</li>
-        <li>CSR e partnership profit–nonprofit</li>
-        <li>Fiscalità degli enti nonprofit e RUNTS</li>
-      </ul>
-
       <h2>Soft skill</h2>
       <ul class="skills">
-        <li>Ascolto attivo e cura del cliente</li>
-        <li>Gestione di clienti e stakeholder</li>
-        <li>Lavoro in team e rispetto delle scadenze</li>
-        <li>Pensiero analitico e problem solving</li>
+        <li>Gestione della relazione con clienti e stakeholder</li>
+        <li>Ottima predisposizione a lavorare in team</li>
+        <li>Rispetto delle scadenze</li>
+        <li>Pensiero analitico e attitudine al problem solving</li>
         <li>Orientamento agli obiettivi</li>
       </ul>
 
@@ -386,21 +378,21 @@
       </header>
 
       <p class="summary">
-        Da oltre 3 anni sviluppo partnership B2B tra aziende e Terzo Settore in ambito eventi e congressi. Per il
-        <strong>Festival del Fundraising</strong>, il più grande evento europeo sulla raccolta fondi, gestisco un
-        portafoglio di
-        oltre 50 aziende, dal primo contatto alla firma fino alla loro presenza in evento. Unisco competenze
-        commerciali,
-        una laurea magistrale in economia sociale e un’esperienza di consulenza fiscale per enti nonprofit: parlo la
-        lingua
-        delle aziende e quella delle organizzazioni.
+        Da oltre 3 anni mi occupo di partnership e sponsorship per il <strong>Festival del Fundraising</strong>, il più
+        grande
+        evento europeo dedicato alla raccolta fondi e al Terzo Settore. Gestisco un portafoglio di oltre 50 aziende
+        partner ed
+        espositori: le individuo, costruisco le proposte, negozio gli accordi e coordino la loro presenza durante il
+        congresso.
+        In precedenza mi sono occupata di consulenza fiscale per enti nonprofit: conosco il punto di vista delle aziende
+        e
+        quello delle organizzazioni.
       </p>
 
       <div class="kpis">
         <div class="kpi"><b>~500K €</b><span>valore commerciale annuo del portafoglio partner</span></div>
         <div class="kpi"><b>50+</b><span>aziende partner ed espositori gestiti</span></div>
-        <div class="kpi"><b>4.500+</b><span>presenze al Festival del Fundraising 2026</span></div>
-        <div class="kpi"><b>715</b><span>biglietti TEDxForlì 2026, sold out in 10 giorni</span></div>
+        <div class="kpi"><b>15 mesi</b><span>dall’ingresso alla promozione a Responsabile</span></div>
       </div>
 
       <h2>Esperienza professionale</h2>
@@ -417,49 +409,19 @@
           <li>Gestisco e sviluppo un portafoglio di oltre 50 aziende partner ed espositori, con un valore commerciale
             annuo
             di circa 500.000 €.</li>
-          <li>Seguo l’intero processo commerciale: ricerca e acquisizione di nuovi partner, analisi delle esigenze,
+          <li>Seguo l’intero processo commerciale B2B: ricerca e acquisizione di nuovi partner, analisi delle esigenze,
             proposte economiche (inclusi upselling e cross-selling), negoziazione e chiusura degli accordi.</li>
-          <li>Coordino la presenza dei partner al congresso (19ª edizione 2026, Palacongressi di Riccione): stand,
-            speech
-            e momenti di visibilità, in linea con gli accordi firmati.</li>
+          <li>Coordino i partner nella preparazione dell’evento: raccolta delle esigenze e raccordo con i referenti
+            interni.</li>
+          <li>Durante il congresso gestisco la presenza dei partner, dall’allestimento degli stand agli speech e a ogni
+            momento di visibilità, in coerenza con gli accordi firmati.</li>
         </ul>
-      </div>
-
-      <div class="job">
-        <div class="job-head">
-          <h3>Responsabile Sponsorship</h3>
-          <span class="when">feb 2024 – oggi</span>
+        <div class="parallel">
+          <b>In parallelo:</b> Responsabile Partnership di <b>TEDxForlì</b> <span class="when">(giu 2023 – oggi)</span>
+          ·
+          Corporate Fundraiser per il <b>Master Universitario in Fundraising</b>, Università di Bologna <span
+            class="when">(apr 2023 – oggi)</span>
         </div>
-        <div class="org">Fundraising.it</div>
-        <ul>
-          <li>Gestisco le sponsorship della piattaforma di formazione per fundraiser (magazine settimanale, corsi,
-            eventi online).</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <div class="job-head">
-          <h3>Responsabile Partnership</h3>
-          <span class="when">giu 2023 – oggi</span>
-        </div>
-        <div class="org">TEDxForlì <span class="place">· Forlì</span></div>
-        <ul>
-          <li>Individuo e gestisco i partner dell’evento. L’edizione 2026 “Controvento” al Teatro Diego Fabbri ha
-            venduto
-            715 biglietti in 10 giorni.</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <div class="job-head">
-          <h3>Corporate Fundraiser</h3>
-          <span class="when">apr 2023 – oggi</span>
-        </div>
-        <div class="org">Master Universitario in Fundraising <span class="place">· Università di Bologna · Forlì</span>
-        </div>
-        <ul>
-          <li>Sviluppo relazioni con aziende a sostegno del Master (97% dei diplomati occupati entro 12 mesi).</li>
-        </ul>
       </div>
 
       <div class="job">
@@ -469,7 +431,7 @@
         </div>
         <div class="org">CNA Forlì-Cesena <span class="place">· Castrocaro Terme (FC)</span></div>
         <ul>
-          <li>Consulenza fiscale e amministrativa a enti nonprofit, dall’analisi delle esigenze alla soluzione.</li>
+          <li>Consulenza e assistenza fiscale e amministrativa a enti nonprofit, dall’analisi delle esigenze alla soluzione.</li>
           <li>Supporto alla trasmigrazione al Registro Unico Nazionale del Terzo Settore (RUNTS) e ai relativi
             adempimenti.</li>
         </ul>
@@ -491,6 +453,11 @@
         <h3>Laurea Triennale in Scienze Internazionali e Diplomatiche</h3>
         <span class="when">2016 – 2019</span>
         <div class="org">Alma Mater Studiorum – Università di Bologna</div>
+      </div>
+      <div class="edu">
+        <h3>Maturità linguistica</h3>
+        <span class="when">2016</span>
+        <div class="org">Liceo Linguistico “A. Da Imola” <span class="place">· Imola</span></div>
       </div>
 
       <p class="gdpr">
