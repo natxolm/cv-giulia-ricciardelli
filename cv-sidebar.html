@@ -39,8 +39,8 @@
     body {
       font-family: "Inter", "Segoe UI", Calibri, Arial, sans-serif;
       color: var(--ink);
-      font-size: 8.6pt;
-      line-height: 1.38;
+      font-size: 8.5pt;
+      line-height: 1.37;
       background: #cfd5db;
     }
 
@@ -74,12 +74,12 @@
     }
 
     .photo {
-      width: 36mm;
-      height: 36mm;
+      width: 34mm;
+      height: 34mm;
       border-radius: 50%;
       object-fit: cover;
       display: block;
-      margin: 0 auto 6mm;
+      margin: 0 auto 5mm;
       border: 3px solid #fff;
       box-shadow: 0 0 0 1px var(--rule);
     }
@@ -90,7 +90,7 @@
       text-transform: uppercase;
       color: var(--accent);
       font-weight: 700;
-      margin: 5mm 0 2mm;
+      margin: 4.4mm 0 2mm;
       padding-bottom: 1.2mm;
       border-bottom: 1.5px solid var(--accent);
     }
@@ -101,7 +101,7 @@
 
     .contact li {
       list-style: none;
-      margin-bottom: 1.6mm;
+      margin-bottom: 1.5mm;
       word-break: break-word;
     }
 
@@ -122,7 +122,7 @@
       list-style: none;
       padding-left: 3.2mm;
       position: relative;
-      margin-bottom: 1mm;
+      margin-bottom: .9mm;
     }
 
     .skills li::before {
@@ -144,7 +144,7 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 1.3mm;
+      margin-bottom: 1.2mm;
       gap: 2mm;
     }
 
@@ -187,14 +187,14 @@
 
     .summary {
       margin-top: 3mm;
-      font-size: 8.7pt;
+      font-size: 8.6pt;
     }
 
     .kpis {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 2.2mm;
-      margin-top: 3.5mm;
+      margin-top: 3.3mm;
     }
 
     .kpi {
@@ -225,13 +225,13 @@
       text-transform: uppercase;
       color: var(--accent);
       font-weight: 700;
-      margin: 4.2mm 0 2mm;
+      margin: 4mm 0 2mm;
       padding-bottom: 1.2mm;
       border-bottom: 1.5px solid var(--accent);
     }
 
     .job {
-      margin-bottom: 2.4mm;
+      margin-bottom: 2.3mm;
       break-inside: avoid;
     }
 
@@ -293,7 +293,7 @@
       display: grid;
       grid-template-columns: 1fr auto;
       gap: .2mm 3mm;
-      margin-bottom: 1.8mm;
+      margin-bottom: 1.7mm;
     }
 
     .edu h3 {
@@ -320,15 +320,6 @@
       line-height: 1.35;
       border-top: 1px solid var(--rule);
     }
-
-    /* Segnaposto da completare: evidenziati in giallo, da sostituire prima dell'invio */
-    .ph {
-      background: #fff3a3;
-      border-radius: 1mm;
-      padding: 0 .8mm;
-      color: #6b5300;
-      font-weight: 600;
-    }
   </style>
 </head>
 
@@ -352,33 +343,37 @@
 
       <h2>Competenze chiave</h2>
       <ul class="skills">
-        <li>Corporate partnership &amp; sponsorship</li>
         <li>Business development B2B</li>
-        <li>Pacchetti sponsor e proposte</li>
+        <li>Corporate partnership &amp; sponsorship</li>
+        <li>Proposte economiche, upselling e cross-selling</li>
         <li>Negoziazione e chiusura accordi</li>
         <li>Account management e rinnovi</li>
+        <li>Coordinamento partner in evento</li>
         <li>CSR e partnership profit–nonprofit</li>
-        <li>Event partnership</li>
-        <li>Fiscalità degli enti nonprofit</li>
+        <li>Fiscalità degli enti nonprofit e RUNTS</li>
       </ul>
 
       <h2>Soft skill</h2>
       <ul class="skills">
-        <li>Ascolto attivo</li>
-        <li>Relazioni interpersonali</li>
-        <li>Visione strategica</li>
+        <li>Ascolto attivo e cura del cliente</li>
+        <li>Gestione di clienti e stakeholder</li>
+        <li>Lavoro in team e rispetto delle scadenze</li>
+        <li>Pensiero analitico e problem solving</li>
+        <li>Orientamento agli obiettivi</li>
+      </ul>
+
+      <h2>Strumenti</h2>
+      <ul class="skills">
+        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+        <li>CRM Zoho (base)</li>
+        <li>ChatGPT Pro</li>
       </ul>
 
       <h2>Lingue</h2>
       <ul class="lang">
         <li><span>Italiano</span><span class="lvl">Madrelingua</span></li>
         <li><span>Inglese</span><span class="lvl">C1 · IELTS</span></li>
-        <li><span>Spagnolo</span><span class="lvl">Professionale</span></li>
-      </ul>
-
-      <h2>Certificazioni</h2>
-      <ul class="skills">
-        <li>IELTS – Livello C1</li>
+        <li><span>Spagnolo</span><span class="lvl">B1</span></li>
       </ul>
     </aside>
 
@@ -387,22 +382,24 @@
       <header>
         <h1>Giulia <span>Ricciardelli</span></h1>
         <div class="role">Responsabile Partnership &amp; Sponsorship</div>
-        <div class="tag">Corporate Fundraising · CSR · Partnership profit–nonprofit</div>
+        <div class="tag">Business development B2B · Eventi e congressi · Partnership profit–nonprofit</div>
       </header>
 
       <p class="summary">
-        Da oltre 3 anni costruisco partnership tra aziende e Terzo Settore. Guido le sponsorship del
-        <strong>Festival del Fundraising</strong>, il più grande evento europeo sulla raccolta fondi, e le partnership
-        di
-        <strong>TEDxForlì</strong>. Unisco competenze commerciali, una laurea magistrale in economia sociale e
-        un’esperienza
-        di consulenza fiscale per enti nonprofit: parlo la lingua delle aziende e quella delle organizzazioni.
+        Da oltre 3 anni sviluppo partnership B2B tra aziende e Terzo Settore in ambito eventi e congressi. Per il
+        <strong>Festival del Fundraising</strong>, il più grande evento europeo sulla raccolta fondi, gestisco un
+        portafoglio di
+        oltre 50 aziende, dal primo contatto alla firma fino alla loro presenza in evento. Unisco competenze
+        commerciali,
+        una laurea magistrale in economia sociale e un’esperienza di consulenza fiscale per enti nonprofit: parlo la
+        lingua
+        delle aziende e quella delle organizzazioni.
       </p>
 
       <div class="kpis">
-        <div class="kpi"><b class="ph">€ [X]</b><span>valore sponsorship gestite nel 2026</span></div>
+        <div class="kpi"><b>~500K €</b><span>valore commerciale annuo del portafoglio partner</span></div>
+        <div class="kpi"><b>50+</b><span>aziende partner ed espositori gestiti</span></div>
         <div class="kpi"><b>4.500+</b><span>presenze al Festival del Fundraising 2026</span></div>
-        <div class="kpi"><b>600+</b><span>organizzazioni coinvolte nel Festival</span></div>
         <div class="kpi"><b>715</b><span>biglietti TEDxForlì 2026, sold out in 10 giorni</span></div>
       </div>
 
@@ -417,13 +414,14 @@
         <div class="progress"><b>Promossa a Responsabile</b> a luglio 2024, dopo 15 mesi come Corporate Partnership
           &amp; Sponsorship.</div>
         <ul>
-          <li>Gestisco l’intero ciclo delle sponsorship (prospecting, proposta, negoziazione, attivazione, rinnovo):
-            19ª edizione 2026 al Palacongressi di Riccione, 100+ sessioni formative.</li>
-          <li>Ho chiuso <span class="ph">[N]</span> accordi con sponsor e partner nel 2026 (<span
-              class="ph">+[X]%</span> rispetto al 2024), con un tasso di rinnovo del <span class="ph">[X]%</span>.</li>
-          <li>Sviluppo l’offerta per due target, i fornitori di soluzioni per il Terzo Settore e le aziende che
-            investono in CSR,
-            dando loro visibilità presso oltre 1.500 decision maker del nonprofit italiano.</li>
+          <li>Gestisco e sviluppo un portafoglio di oltre 50 aziende partner ed espositori, con un valore commerciale
+            annuo
+            di circa 500.000 €.</li>
+          <li>Seguo l’intero processo commerciale: ricerca e acquisizione di nuovi partner, analisi delle esigenze,
+            proposte economiche (inclusi upselling e cross-selling), negoziazione e chiusura degli accordi.</li>
+          <li>Coordino la presenza dei partner al congresso (19ª edizione 2026, Palacongressi di Riccione): stand,
+            speech
+            e momenti di visibilità, in linea con gli accordi firmati.</li>
         </ul>
       </div>
 
@@ -435,9 +433,7 @@
         <div class="org">Fundraising.it</div>
         <ul>
           <li>Gestisco le sponsorship della piattaforma di formazione per fundraiser (magazine settimanale, corsi,
-            eventi online);
-            <span class="ph">[N]</span> partner attivati.
-          </li>
+            eventi online).</li>
         </ul>
       </div>
 
@@ -450,7 +446,7 @@
         <ul>
           <li>Individuo e gestisco i partner dell’evento. L’edizione 2026 “Controvento” al Teatro Diego Fabbri ha
             venduto
-            715 biglietti in 10 giorni; <span class="ph">[N]</span> partner coinvolti.</li>
+            715 biglietti in 10 giorni.</li>
         </ul>
       </div>
 
@@ -462,9 +458,7 @@
         <div class="org">Master Universitario in Fundraising <span class="place">· Università di Bologna · Forlì</span>
         </div>
         <ul>
-          <li>Sviluppo relazioni con aziende a sostegno del Master (97% dei diplomati occupati entro 12 mesi);
-            <span class="ph">[€ X / N aziende]</span> raccolti.
-          </li>
+          <li>Sviluppo relazioni con aziende a sostegno del Master (97% dei diplomati occupati entro 12 mesi).</li>
         </ul>
       </div>
 
@@ -475,9 +469,9 @@
         </div>
         <div class="org">CNA Forlì-Cesena <span class="place">· Castrocaro Terme (FC)</span></div>
         <ul>
-          <li>Ho seguito gli adempimenti fiscali e amministrativi di <span class="ph">[N]</span> enti nonprofit e
-            associazioni
-            durante l’avvio della Riforma del Terzo Settore e del RUNTS.</li>
+          <li>Consulenza fiscale e amministrativa a enti nonprofit, dall’analisi delle esigenze alla soluzione.</li>
+          <li>Supporto alla trasmigrazione al Registro Unico Nazionale del Terzo Settore (RUNTS) e ai relativi
+            adempimenti.</li>
         </ul>
       </div>
 
@@ -486,14 +480,17 @@
       <div class="edu">
         <h3>Laurea Magistrale in Management dell’Economia Sociale</h3>
         <span class="when">2019 – 2022</span>
-        <div class="org">Alma Mater Studiorum – Università di Bologna <span class="place">· Voto: <span
-              class="ph">[110/110]</span></span></div>
+        <div class="org">Alma Mater Studiorum – Università di Bologna</div>
+      </div>
+      <div class="edu">
+        <h3>Erasmus+ · Social Entrepreneurship and Management</h3>
+        <span class="when">ago 2020 – feb 2021</span>
+        <div class="org">Roskilde University <span class="place">· Danimarca</span></div>
       </div>
       <div class="edu">
         <h3>Laurea Triennale in Scienze Internazionali e Diplomatiche</h3>
         <span class="when">2016 – 2019</span>
-        <div class="org">Alma Mater Studiorum – Università di Bologna <span class="place">· Voto: <span
-              class="ph">[110/110]</span></span></div>
+        <div class="org">Alma Mater Studiorum – Università di Bologna</div>
       </div>
 
       <p class="gdpr">

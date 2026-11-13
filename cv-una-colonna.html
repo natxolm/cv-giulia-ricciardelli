@@ -37,8 +37,8 @@
     body {
       font-family: "Inter", "Segoe UI", Calibri, Arial, sans-serif;
       color: var(--ink);
-      font-size: 8.8pt;
-      line-height: 1.4;
+      font-size: 8.7pt;
+      line-height: 1.38;
       background: #cfd5db;
     }
 
@@ -68,10 +68,10 @@
     /* ---------- Intestazione ---------- */
     header {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
-      gap: 8mm;
-      padding-bottom: 4mm;
+      gap: 7mm;
+      padding-bottom: 3.6mm;
       border-bottom: 2px solid var(--accent);
     }
 
@@ -100,7 +100,7 @@
     }
 
     .contact {
-      margin-top: 2.6mm;
+      margin-top: 2.4mm;
       font-size: 8.3pt;
       color: var(--ink);
     }
@@ -132,26 +132,26 @@
       text-transform: uppercase;
       color: var(--accent);
       font-weight: 700;
-      margin: 4mm 0 2mm;
+      margin: 3.7mm 0 1.9mm;
       padding-bottom: 1.1mm;
       border-bottom: 1px solid var(--rule);
     }
 
     .summary {
-      font-size: 9pt;
+      font-size: 8.9pt;
     }
 
     .kpis {
       display: flex;
       gap: 2.5mm;
-      margin-top: 3.2mm;
+      margin-top: 3mm;
     }
 
     .kpi {
       flex: 1;
       background: var(--accent-soft);
       border-radius: 2mm;
-      padding: 2.2mm 3mm 2mm;
+      padding: 2.1mm 3mm 1.9mm;
     }
 
     .kpi b {
@@ -170,7 +170,7 @@
     }
 
     .job {
-      margin-bottom: 2.8mm;
+      margin-bottom: 2.4mm;
       break-inside: avoid;
     }
 
@@ -182,7 +182,7 @@
     }
 
     .job-head h3 {
-      font-size: 9.6pt;
+      font-size: 9.5pt;
       font-weight: 700;
     }
 
@@ -215,11 +215,11 @@
     }
 
     .job ul {
-      margin: 1mm 0 0 4.5mm;
+      margin: .9mm 0 0 4.5mm;
     }
 
     .job li {
-      margin-bottom: .5mm;
+      margin-bottom: .4mm;
       padding-left: .5mm;
     }
 
@@ -232,21 +232,21 @@
       justify-content: space-between;
       align-items: baseline;
       gap: 4mm;
-      margin-bottom: 1.6mm;
+      margin-bottom: 1.4mm;
     }
 
     .edu h3 {
-      font-size: 9.3pt;
+      font-size: 9.2pt;
       font-weight: 700;
     }
 
     .edu .sub {
-      font-size: 8.4pt;
+      font-size: 8.3pt;
       color: var(--muted);
     }
 
     .skills p {
-      margin-bottom: 1.3mm;
+      margin-bottom: 1.1mm;
     }
 
     .skills b {
@@ -262,15 +262,6 @@
       line-height: 1.35;
       border-top: 1px solid var(--rule);
     }
-
-    /* Segnaposto da completare prima dell'invio */
-    .ph {
-      background: #fff3a3;
-      border-radius: 1mm;
-      padding: 0 .8mm;
-      color: #6b5300;
-      font-weight: 600;
-    }
   </style>
 </head>
 
@@ -278,32 +269,31 @@
   <div class="page">
 
     <header>
+      <img class="photo" src="foto-giulia.jpg" alt="Foto di Giulia Ricciardelli">
       <div>
         <h1>Giulia <span>Ricciardelli</span></h1>
         <div class="role">Responsabile Partnership &amp; Sponsorship</div>
-        <div class="tag">Corporate Fundraising · CSR · Partnership profit–nonprofit</div>
+        <div class="tag">Business development B2B · Eventi e congressi · Partnership profit–nonprofit</div>
         <div class="contact">
           Imola (BO)<span class="sep">|</span><a
             href="mailto:ricciardelli.giulia97@gmail.com">ricciardelli.giulia97@gmail.com</a><br><a
             href="https://www.linkedin.com/in/giulia-ricciardelli-18a55225b">linkedin.com/in/giulia-ricciardelli-18a55225b</a>
         </div>
       </div>
-      <img class="photo" src="foto-giulia.jpg" alt="Foto di Giulia Ricciardelli">
     </header>
 
     <h2>Profilo</h2>
     <p class="summary">
-      Da oltre 3 anni costruisco partnership tra aziende e Terzo Settore. Guido le sponsorship del
-      <strong>Festival del Fundraising</strong>, il più grande evento europeo sulla raccolta fondi, e le partnership di
-      <strong>TEDxForlì</strong>. Unisco competenze commerciali, una laurea magistrale in economia sociale e
-      un’esperienza
-      di consulenza fiscale per enti nonprofit: parlo la lingua delle aziende e quella delle organizzazioni.
+      Da oltre 3 anni sviluppo partnership B2B tra aziende e Terzo Settore in ambito eventi e congressi. Per il
+      <strong>Festival del Fundraising</strong>, il più grande evento europeo sulla raccolta fondi, gestisco oltre 50 aziende partner, dal primo contatto alla presenza in evento. Unisco competenze commerciali, una laurea in economia sociale e un’esperienza di consulenza fiscale per enti nonprofit: parlo la
+      lingua
+      delle aziende e quella delle organizzazioni.
     </p>
 
     <div class="kpis">
-      <div class="kpi"><b class="ph">€ [X]</b><span>valore sponsorship gestite nel 2026</span></div>
+      <div class="kpi"><b>~500K €</b><span>valore commerciale annuo del portafoglio partner</span></div>
+      <div class="kpi"><b>50+</b><span>aziende partner ed espositori gestiti</span></div>
       <div class="kpi"><b>4.500+</b><span>presenze al Festival del Fundraising 2026</span></div>
-      <div class="kpi"><b>600+</b><span>organizzazioni coinvolte nel Festival</span></div>
       <div class="kpi"><b>715</b><span>biglietti TEDxForlì 2026, sold out in 10 giorni</span></div>
     </div>
 
@@ -317,13 +307,13 @@
       <div class="progress"><b>Promossa a Responsabile</b> a luglio 2024, dopo 15 mesi come Corporate Partnership &amp;
         Sponsorship.</div>
       <ul>
-        <li>Gestisco l’intero ciclo delle sponsorship (prospecting, proposta, negoziazione, attivazione, rinnovo):
-          19ª edizione 2026 al Palacongressi di Riccione, 100+ sessioni formative.</li>
-        <li>Ho chiuso <span class="ph">[N]</span> accordi con sponsor e partner nel 2026 (<span class="ph">+[X]%</span>
-          rispetto al 2024), con un tasso di rinnovo del <span class="ph">[X]%</span>.</li>
-        <li>Sviluppo l’offerta per due target, i fornitori di soluzioni per il Terzo Settore e le aziende che investono
-          in CSR,
-          dando loro visibilità presso oltre 1.500 decision maker del nonprofit italiano.</li>
+        <li>Gestisco un portafoglio di oltre 50 aziende partner ed espositori dal valore annuo di circa 500.000 €.</li>
+        <li>Seguo l’intero processo commerciale: ricerca e acquisizione di nuovi partner, analisi delle esigenze,
+          proposte economiche
+          (inclusi upselling e cross-selling), negoziazione e chiusura degli accordi.</li>
+        <li>Coordino la presenza dei partner al congresso (19ª edizione 2026, Palacongressi di Riccione): stand, speech
+          e momenti
+          di visibilità, in linea con gli accordi firmati.</li>
       </ul>
     </div>
 
@@ -334,9 +324,7 @@
       </div>
       <ul>
         <li>Gestisco le sponsorship della piattaforma di formazione per fundraiser (magazine settimanale, corsi, eventi
-          online);
-          <span class="ph">[N]</span> partner attivati.
-        </li>
+          online).</li>
       </ul>
     </div>
 
@@ -346,8 +334,7 @@
         <span class="when">giu 2023 – oggi · Forlì</span>
       </div>
       <ul>
-        <li>Individuo e gestisco i partner dell’evento. L’edizione 2026 “Controvento” al Teatro Diego Fabbri ha venduto
-          715 biglietti in 10 giorni; <span class="ph">[N]</span> partner coinvolti.</li>
+        <li>Individuo e gestisco i partner dell’evento; l’edizione 2026 al Teatro Diego Fabbri ha venduto 715 biglietti in 10 giorni.</li>
       </ul>
     </div>
 
@@ -358,9 +345,7 @@
         <span class="when">apr 2023 – oggi · Forlì</span>
       </div>
       <ul>
-        <li>Sviluppo relazioni con aziende a sostegno del Master (97% dei diplomati occupati entro 12 mesi);
-          <span class="ph">[€ X / N aziende]</span> raccolti.
-        </li>
+        <li>Sviluppo relazioni con aziende a sostegno del Master (97% dei diplomati occupati entro 12 mesi).</li>
       </ul>
     </div>
 
@@ -370,9 +355,9 @@
         <span class="when">mag 2022 – mar 2023 · Castrocaro Terme (FC)</span>
       </div>
       <ul>
-        <li>Ho seguito gli adempimenti fiscali e amministrativi di <span class="ph">[N]</span> enti nonprofit e
-          associazioni
-          durante l’avvio della Riforma del Terzo Settore e del RUNTS.</li>
+        <li>Consulenza fiscale e amministrativa a enti nonprofit, dall’analisi delle esigenze alla soluzione; supporto
+          alla
+          trasmigrazione al Registro Unico Nazionale del Terzo Settore (RUNTS) e ai relativi adempimenti.</li>
       </ul>
     </div>
 
@@ -381,27 +366,35 @@
     <div class="edu">
       <div>
         <h3>Laurea Magistrale in Management dell’Economia Sociale</h3>
-        <div class="sub">Alma Mater Studiorum – Università di Bologna · Voto: <span class="ph">[110/110]</span></div>
+        <div class="sub">Alma Mater Studiorum – Università di Bologna</div>
       </div>
       <span class="when">2019 – 2022</span>
     </div>
     <div class="edu">
       <div>
+        <h3>Erasmus+ · Social Entrepreneurship and Management</h3>
+        <div class="sub">Roskilde University, Danimarca</div>
+      </div>
+      <span class="when">ago 2020 – feb 2021</span>
+    </div>
+    <div class="edu">
+      <div>
         <h3>Laurea Triennale in Scienze Internazionali e Diplomatiche</h3>
-        <div class="sub">Alma Mater Studiorum – Università di Bologna · Voto: <span class="ph">[110/110]</span></div>
+        <div class="sub">Alma Mater Studiorum – Università di Bologna</div>
       </div>
       <span class="when">2016 – 2019</span>
     </div>
 
     <h2>Competenze e lingue</h2>
     <div class="skills">
-      <p><b>Competenze chiave:</b> corporate partnership &amp; sponsorship · business development B2B · pacchetti
-        sponsor e proposte ·
-        negoziazione e chiusura accordi · account management e rinnovi · CSR e partnership profit–nonprofit · event
-        partnership ·
-        fiscalità degli enti nonprofit</p>
-      <p><b>Soft skill:</b> ascolto attivo · relazioni interpersonali · visione strategica</p>
-      <p><b>Lingue:</b> italiano (madrelingua) · inglese (C1, certificazione IELTS) · spagnolo (professionale)</p>
+      <p><b>Competenze chiave:</b> business development B2B · corporate partnership &amp; sponsorship · proposte
+        economiche, upselling e
+        cross-selling · negoziazione e chiusura accordi · account management e rinnovi · coordinamento partner in evento
+        ·
+        CSR e partnership profit–nonprofit · fiscalità degli enti nonprofit e RUNTS</p>
+      <p><b>Soft skill:</b> ascolto attivo e cura del cliente · gestione degli stakeholder · lavoro in team · rispetto delle scadenze · problem solving · orientamento agli obiettivi</p>
+      <p><b>Strumenti:</b> Microsoft Office (Word, Excel, PowerPoint) · CRM Zoho (base) · ChatGPT Pro</p>
+      <p><b>Lingue:</b> italiano (madrelingua) · inglese (C1, certificazione IELTS) · spagnolo (B1)</p>
     </div>
 
     <p class="gdpr">
